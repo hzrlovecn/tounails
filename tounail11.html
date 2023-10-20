@@ -84,7 +84,53 @@
 	    <img src="WECHAT QRcode.png" alt="微信二维码">
 		
 	    <p>我们的位置：<a href="https://map.baidu.com/poi/To%20U.%20Nail/@12612380.619179789,2641762.2296928843,21z?uid=58d05e0294dc595eeb56fa17&info_merge=1&isBizPoi=false&ugc_type=3&ugc_ver=1&device_ratio=1&compat=1&pcevaname=pc4.1&querytype=detailConInfo&da_src=shareurl" target="_blank">广州白云大道北新兴白云花园1号楼154号tounails</a></p>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>【To U Nails】，来这里打造指尖艺术</title>
+    <style>
+      /* CSS样式省略 */
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- 页面内容省略 -->
 
+      <h2>给我们评分</h2>
+      <form action="/submit_rating" method="POST">
+        <label for="service_rating">服务评分：</label>
+        <select name="service_rating" id="service_rating">
+          <option value="1">1星</option>
+          <option value="2">2星</option>
+          <option value="3">3星</option>
+          <option value="4">4星</option>
+          <option value="5">5星</option>
+        </select><br>
+
+        <label for="technique_rating">技术评分：</label>
+        <select name="technique_rating" id="technique_rating">
+          <option value="1">1星</option>
+          <option value="2">2星</option>
+          <option value="3">3星</option>
+          <option value="4">4星</option>
+          <option value="5">5星</option>
+        </select><br>
+
+        <label for="environment_rating">环境评分：</label>
+        <select name="environment_rating" id="environment_rating">
+          <option value="1">1星</option>
+          <option value="2">2星</option>
+          <option value="3">3星</option>
+          <option value="4">4星</option>
+          <option value="5">5星</option>
+        </select><br>
+
+        <label for="message">留言：</label>
+        <textarea name="message" id="message" rows="4"></textarea><br>
+
+        <input type="submit" value="提交">
+      </form>
 
     </div>
   </body>
